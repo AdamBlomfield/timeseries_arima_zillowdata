@@ -1,5 +1,5 @@
 # A Chicago Housing Forecasting Model 
-==============================
+
 ## Project Description
 ------------
 The project seeks to discover the 5 best zipcodes to invest in, in the Chicago area. 5 potential definitions were used for "best" to cater for different styles of investors. Historic Chicago house price data was used to build a time series model and predict where house prices would be at a future date.
