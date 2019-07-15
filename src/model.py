@@ -40,7 +40,7 @@ def evaluate_models(train_column, test, p_values, d_values, q_values):
 
 
 
-def predict_arima_model(data, column, arima_order, periods):
+def predict_arima_model(data, column, arima_order, periods, save=False):
     '''Output: Final predicted median price for zipcode, the zipcode's price growth in absolute terms as well as %, 
     the risk associated with the zipcode investment and finally a prediction chart to illustrate the 
     prediction intervals'''
@@ -74,6 +74,8 @@ def predict_arima_model(data, column, arima_order, periods):
     plt.ylim(np.min(data[column])-50000,np.max(data[column])+150000)
     plt.ylabel('Median Housing Price')
     plt.title('Median House Price Prediction for Zipcode {}'.format(column))
+    if save:
+        plt.savefig('../reports/figures/best_zips_predictions_{}.png'.format(str(column)))
     plt.show();
     
     # Print out Final Price, Growth ($ and %) and the associated risk
