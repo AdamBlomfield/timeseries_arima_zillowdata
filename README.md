@@ -1,4 +1,4 @@
-# mod_4_project
+# A Chicago Housing Forecasting Model 
 ==============================
 ## Project Description
 ------------
