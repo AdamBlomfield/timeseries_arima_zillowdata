@@ -6,11 +6,6 @@ The project seeks to discover the 5 best zipcodes to invest in, in the Chicago a
 
 Prediction intervals were made for 6 months and 12 months into the future.
 House prices for each zipcode in Chicago were taken from Zillow's database and were calculated as the median price of two-bedroom homes for each month from April 1996 to April 2018.  
-ARIMA model used to predict future house prices
-
-Model's Prediction of House Price:
-
-![alt text](https://github.com/AdamBlomfield/mod_4_project/tree/master/reports/figures/prediction_chart.png "Chart to show our prediction of house price")
 
 ## Project Organization
 ------------
